@@ -46,8 +46,6 @@ int Exercise5_2() {
     printf("Enter the time in 24 hour time: ");
     scanf("%d:%d", &hours, &minutes);
 
-    printf("You entered %d:%02d\n", hours, minutes);
-
     char ampm[3];
     if (hours >= 12) {
         strcpy(ampm, "PM");
